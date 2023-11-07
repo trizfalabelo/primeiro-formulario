@@ -1,0 +1,46 @@
+html {
+    background-color: rgb(255, 182, 232);
+    font-size: 20px;
+}
+
+h1 {
+    height: 50px;
+    color: rgb(167, 119, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+    text-align: center;
+    text-shadow: 1px 1px 1px;
+    padding: 1px;
+    margin: 30px;
+
+}
+
+form {
+    text-align: center;
+}
+
+.genero {
+    font-size: 18px;
+    color: rgb(153, 117, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+label0 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+label1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+label2 {
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+}
