@@ -1,46 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Playfair+Display&family=Righteous&family=Roboto:wght@100&display=swap');
+
+
 html {
-    background-color: rgb(255, 182, 232);
+    background-color: rgb(243, 210, 232);
     font-size: 20px;
-}
-
-h1 {
-    height: 50px;
-    color: rgb(167, 119, 250);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: initial;
-    text-align: center;
-    text-shadow: 1px 1px 1px;
-    padding: 1px;
-    margin: 30px;
 
 }
 
-form {
+.titulo {
+    height: 200px;
+    line-height: 200px;
+    color: rgb(93, 52, 101);
+    font-family: 'Lobster', sans-serif;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 5px 5px 1px #ccc;
+    padding: 45px;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+    border-radius: 200px;
+
+}
+
+.cabecalho {
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+nav {
+    padding: 100;
+    gap: 50px;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Lobster', sans-serif;
+    color: rgb(217, 105, 174);
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+a {
+    cursor: pointer;
+}
+
+a.visited {
+    color: pink
+}
+
+a:active {
+    color: white
+}
+
+
+a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+body {
+    text-align: center;
+}
+
+
+.datas {
+    font-size: 25px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: rgb(88, 65, 109);
+    font-weight: bold;
 }
 
 .genero {
     font-size: 18px;
-    color: rgb(153, 117, 187);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    color: rgb(88, 65, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-label0 {
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-size: 25px;
-    color: blueviolet;
+
+
+.curriculo {
+    font-size: 18px;
+    color: rgb(88, 65, 109);
     font-weight: bold;
+    font-family: 'Lobster', sans-serif;
 }
 
-label1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.formacao {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: rgb(88, 65, 109);
+    font-weight: bold;
+    text-align: center;
+}
+
+.genero {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: rgb(88, 65, 109);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.experiencias {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: rgb(88, 65, 109);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+p {
+    font-size: 18px;
+    color: rgb(109, 75, 141);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.instituicao {
+    font-size: 18px;
+    color: rgb(109, 75, 141);
+    font-weight: bold;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+}
+
+.ano-conclusao {
     font-size: 23px;
-    color: blueviolet;
+    color: rgb(109, 75, 141);
     font-weight: bold;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
 }
 
-label2 {
-    font-size: 25px;
-    color: blueviolet;
-    font-weight: bold;
+.botao-enviar {
+    background-color: rgb(154, 127, 179);
+    color: aliceblue;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px #ccc;
+    font-family: 'lora', serif;
+    align-items: right;
+}
+
+@media (max-width: 576px; ) {
+    .cabecalho {
+        background-color: rgb(255, 182, 232);
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho nav {
+        float: none;
+    }
 }
