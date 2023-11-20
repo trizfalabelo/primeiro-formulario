@@ -159,7 +159,7 @@ p {
     align-items: right;
 }
 
-@media (max-width: 576px; ) {
+@media (max-width: 576px) {
     .cabecalho {
         background-color: rgb(255, 182, 232);
     }
